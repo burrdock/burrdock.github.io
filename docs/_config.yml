@@ -29,10 +29,6 @@ url: https://burrdock.github.io # the base hostname & protocol for your site, e.
 twitter_username: jekyllrb
 github_username:  jekyll
 
-collections:
-  banks:
-    output: true
-
 # Build settings
 theme: minima
 plugins:
