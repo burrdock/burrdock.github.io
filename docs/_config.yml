@@ -18,21 +18,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Japan Expat Resources
+author: brought to you by an ex-pat in Japan
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Resources for ex-pats in Japan. Mostly financial content covering banking,
+  taxes, and other various topics. I am not a financial professional, so take
+  any information learned here at your own risk.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://burrdock.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+reddit_username: burrdock_
+github_username:  burrdock
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+# header_pages:
+#   - about.md
+
+permalink: /:categories/:title/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
